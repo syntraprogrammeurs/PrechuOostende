@@ -1,0 +1,21 @@
+/*FONTS*/
+@font-face {
+    font-family: SegoeWpLight;
+    src: url(../fonts/SegoeWpLight.ttf);
+}
+body{
+    font-family:'SegoeWpLight';
+    font-size:1rem;
+}
+.my-6{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.navbar-brand{
+    padding-left:6%;
+}
+
+.navbar-brand p{
+    font-size:2.6rem;
+    color:#000;
+}
