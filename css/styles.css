@@ -1,3 +1,4 @@
+/*MOBILE FIRST*/
 /*FONTS*/
 @font-face {
     font-family: SegoeWpLight;
@@ -11,6 +12,10 @@ body{
     margin-top:10px;
     margin-bottom:10px;
 }
+.my-7{
+    margin-top:35px;
+    margin-bottom:35px;
+}
 .navbar-brand{
     padding-left:6%;
 }
@@ -19,3 +24,28 @@ body{
     font-size:2.6rem;
     color:#000;
 }
+.lh-2{
+    line-height: 2;
+}
+
+/**CSS GROTER DAN MOBIEL**/
+
+
+
+/*sm*/
+@media (min-width: 576px) {  }
+
+/*md*/
+@media (min-width: 768px) {  }
+
+/*lg*/
+@media (min-width: 992px) {
+    .my-7{
+        margin-top:75px;
+        margin-bottom:75px;
+    }
+}
+
+/*xl*/
+@media (min-width: 1200px) { }
+
